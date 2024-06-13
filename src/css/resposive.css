@@ -1,0 +1,32 @@
+/*breakpoints*/
+@media (max-width: 992px) {
+    .bloco-texto {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .jogo {
+        flex-direction: column-reverse;
+    }
+
+    .jogo-r {
+        flex-direction: column;
+        text-align: start;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+        font-size: 0.75rem;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 400px) {
+    .imagem {
+        width: 400px; /* ou outro valor desejado */
+        height: auto; /* para manter a proporção original da imagem */
+      }
+}
